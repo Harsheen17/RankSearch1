@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="1" configfailurepolicy="continue" guice-stage="DEVELOPMENT" name="Failed suite [sample]" parallel="classes">
+  <test thread-count="1" name="worddesktoPOC(failed)" parallel="classes">
+    <classes>
+      <class name="com.coupa.wordaddin.InstallAddinStepDefinitions">
+        <methods>
+          <include name="addincoupa"/>
+        </methods>
+      </class> <!-- com.coupa.wordaddin.InstallAddinStepDefinitions -->
+    </classes>
+  </test> <!-- worddesktoPOC(failed) -->
+</suite> <!-- Failed suite [sample] -->
